@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #764ba2, #667eea);
+    transform: scale(1.05);
+}
+
+.form-check-label {
+    font-size: 14px;
+    color: #555;
+}
+
+#password:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+
+p{
+    color: white;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(19, 19, 19);
+    transition: 0.3s ease-in-out;
+
+}
